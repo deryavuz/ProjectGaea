@@ -1,0 +1,31 @@
+{
+    "sample.redbutton" : {
+        "itemType" : "ENTITLED",
+        "price" : "0.99",
+        "title": "Red Button",
+        "description": "Use of the red button",
+        "smallIconUrl": "http://path_to_image"
+    },
+    "sample.greenbutton" : {
+        "itemType" : "ENTITLED",
+        "price" : "0.99",
+        "title": "Green Button",
+        "description": "Use of the green button",
+        "smallIconUrl": "http://path_to_image"
+    },
+    "sample.bluebutton.subscription.1mo" : {
+        "itemType" : "SUBSCRIPTION",
+        "price" : "0.99",
+        "title": "Blue Button",
+        "description": "Use of the blue button",
+        "smallIconUrl": "http://path_to_image",
+        "subscriptionParent": "sample.bluebutton.subscription"
+    },
+    "sample.clicks" : {
+        "itemType" : "CONSUMABLE",
+        "price" : "0.99",
+        "title": "10 Clicks",
+        "description": "Lets you click the button 10 more times",
+        "smallIconUrl": "http://path_to_image"
+    }
+}

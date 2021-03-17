@@ -1,0 +1,33 @@
+#theButton {
+    width: 30em;
+    height: 6em
+}
+
+.iapButton {
+    border: none;
+    width: 9.8em;
+    height: 3em;    
+    color: white;
+    font-weight: bold;
+}
+
+.iapButton.locked:after {
+    content: " (locked)";
+}
+
+.iapButton.active:after {
+    content: " (active)";
+}
+
+#redButton {
+    background-color: red;
+}
+
+#blueButton {
+    background-color: blue;
+}
+
+#greenButton {
+    background-color: green;
+}
+

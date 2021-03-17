@@ -9,10 +9,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
     "create-react-app": "^4.0.1",
     "kepler.gl": "^2.4.0",
     "react-palm": "^3.3.7",
     "react-redux": "^7.2.2",
-    "redux": "^4.0.5"
+    "redux": "^4.0.5",
+    "vue": "^2.6.12",
+    "vue-axios": "^3.2.4",
+    "vue-toast-notification": "^0.6.1"
   }
 }

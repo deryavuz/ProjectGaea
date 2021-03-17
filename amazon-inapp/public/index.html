@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/css/foundation.min.css">
+  <meta charset="utf-8">
+  <title>Air Quality & Fire Hazard Advisory</title>
+</head>
+
+  <body>
+    <div class="container" id="app">
+      <h3 class="text-center">Air Pollution Risk</h3>
+
+      
+      <div class="columns medium-4" >
+        <h4>Current Air Quality by ZIP</h4>
+        <textarea v-model="airDataString" rows="50" cols="50" autofocus>
+
+        </textarea>
+
+        <ul>
+          <li v-for="{stations} in parameters" v-bind:key="stations">
+            <p>{{ stations }}</p>
+          </li>
+        </ul>
+      </div>
+      <div class="columns medium-4" >
+        <h4>Fire Hazard</h4>
+        <textarea v-model="fireDataString" rows="50" cols="50" autofocus>
+         
+        </textarea>
+        
+        <ul>
+          <li v-for="{alert} in parameters" v-bind:key="alert">
+            <p>{{ alert }}</p>
+          </li>
+        </ul>
+        
+
+        
+      </div>
+
+
+    </div>
+
+    <script src="https://unpkg.com/vue"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="vueApp.js"></script>
+
+    
+
+  </body>
+</html>
+
+<!-- <div class="card-divider">
+  <p>$ {{ result.USD }}</p>
+</div> -->
+
+<!-- <div class="card-section">
+  <p> {{ index }} </p>
+</div>
+<div class="card-divider">
+  <p>$ {{ result.USD }}</p>
+</div>
+<div class="card-section">
+  <p> &#8364 {{ result.EUR }}</p>
+</div> -->
